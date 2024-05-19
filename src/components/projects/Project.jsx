@@ -5,19 +5,21 @@ const Project = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-800 bg-[hsl(0,0%,80%)] h-full"
+      className="w-full pt-8 text-gray-800 bg-[hsl(0,0%,80%)] "
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full">
-        <div className="pb-8 mr-20">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center ">
+        <div className="mt-16 mr-20">
           <p className="text-4xl font-bold inline border-b-4 border-[#1877F2]">
             Projects
           </p>
-          <p className="py-6 text-lg">Check out some of my Projects</p>
+          <p className="py-6 text-lg ml-[-20px]">
+            Check out some of my Projects
+          </p>
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8 mt-16">
           {projectsList.map((projects) => (
             <div
               key={projects.id}

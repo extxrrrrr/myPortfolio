@@ -19,7 +19,7 @@ const Home = () => {
           />
         </div>
         <p className="text-lg justify-center items-center">Hi, my name is</p>
-        <h1 className="text-4xl sm:tex t-7xl font-bold text-[#1877F2]">
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#1877F2]">
           Ukrit Sunchaisirikul
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-gray-700">
